@@ -10,68 +10,65 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(105deg,#0000ff,#dc0adc);
 }
 
 .container{
-    height: 350px;
-    width: 350px;
-    border: 1px solid black;
+    height: 400px;
+    width: 450px;
+    border: 1px solid rgb(0, 0, 0);
     padding: 25px;
-    border-radius: 5px;
-    background-color: #ffffff;
-    box-shadow: 3px 8px 8px rgba(2, 2, 2, 0.4);
+    border-radius: 15px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
 }
 
 h1{
     text-align: center;
-    border-bottom: 1px solid gray;
+    color:mediumseagreen;
 }
 
-.inp1{
-    width: 250px;
-    margin-top:35px ;
-    margin-left: 20px;
-    border: none;
-    color: gray;
-    border-bottom: 2px solid gray;
-    cursor: pointer;
-}
-
-.inp2{
-    width: 250px;
-    margin-top: 15px;
-    margin-left: 20px;
-    border: none;
-    color: gray;
-    border-bottom: 2px solid gray;
-    cursor: pointer;
-}
-
-p{
-    margin-top: 25px;
-    margin-left: 20px;
-    font-size: 10px;
-    color: gray;
-    cursor: pointer;
-}
-
-button{
-    height: 30px;
-    width: 250px;
-    margin-top: 20px;
-    margin-left: 20px;
-    border-radius: 16px;
-    cursor: pointer;
-    border: none;
-    box-shadow: 3px 8px 8px rgba(2, 2, 2, 0.1);
-}
-
-.xar{
+h2{
+    margin-top: 10px;
     text-align: center;
     cursor: pointer;
 }
 
+.inp1{
+    margin-top: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+input{
+    height: 25px;
+    width: 365px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.inp2{
+    margin-top: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+button{
+    height: 40px;
+    width: 375px;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: mediumspringgreen;
+}
+
+p{
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
 span{
-    color: royalblue;
+    color: steelblue;
+    cursor: pointer;
 }
