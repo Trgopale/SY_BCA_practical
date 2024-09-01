@@ -4,16 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Student Login Form</title>
+    <title>Student Registration Form</title>
 </head>
 <body>
-    <div><p class="std">Student Login Form</p>
-        <div class="container">
-            <div>Username:<br><input type="text"></div>
-            <div>Password:<br><input type="password"></div>
-            <button>Login</button>
-            <div><input class="che" type="checkbox">Remmeber me <button class="can">cancel</button><span>Forgot Password</span></div>
-        </div>
-    </div>
+    <div class="contener"><p>Student Registration Form</p>
+        <div class="tus">Firstname:<br><input type="text" placeholder="Firstname"></div>
+        <div class="tus">Midelname:<br><input type="text" placeholder="Midelname"></div>
+        <div class="tus">Lastrname:<br><input type="text" placeholder="Lastname"></div>
+        <div class="tus">Course:<select name="Course" id="Course">
+            <option value="Course">Course</option>
+            <option value="Course">BA</option>
+            <option value="Course">B.COM</option>
+            <option value="Course">BSC</option>
+            <option value="Course">BCS</option>
+            <option value="Course">BCA</option>
+        </select></div>
+        <div class="tus">Gender:<input class="anu" type="radio">Male <input class="anu"type="radio">Female <input class="anu" type="radio">Other</div>
+    <div class="tus">Phone:<br><input type="number" placeholder="+91"></div>
+    <div class="tus">Current Address:<br><textarea class="tus"Current Address id="Current Address" placeholder="Current Address"></textarea></div>
+    <div class="tus">Email:<br><input type="email" placeholder="Enter Email"></div>
+    <div class="tus">Password:<br><input type="password" placeholder="password"></div>
+    <div class="tus">Re-type Password:<br><input type="password" placeholder="Re-type password"></div>
+    <button>Register</button>
 </body>
 </html>
